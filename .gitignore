@@ -1,0 +1,26 @@
+# Build output (west build -d ... normally lives outside this folder)
+build/
+build_*/
+
+# Zephyr build artifacts, in case a build was made in-tree
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.lst
+zephyr/
+twister-out*/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
